@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-
 body{
     background-color: #020021;
     font-family: 'Roboto', sans-serif;
@@ -37,14 +36,20 @@ div.main{
     display: flex;
     justify-content: space-between;
     padding: 5em 1.5em 3em 6em;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainText{
+    width: 35%;
 }
 img.drumkit{
     width: 700px;
     filter: drop-shadow(20px 0px 100px #1F173C);
 }
 div.divRelative{
-    
 position: relative;
+
 }
 div.firstRow{
     display: flex;
@@ -92,7 +97,6 @@ div.thirdRow{
     opacity: 0;
 }
 
-
 .small{
     width: 108px;
     height: 108px;
@@ -112,6 +116,7 @@ h1{
     font-size: 64px;
     font-weight: 450;
     line-height: 60px;
+    width: 50%;
 }
 .text{
     color: #5E5876;
