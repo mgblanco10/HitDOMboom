@@ -1,23 +1,37 @@
-const buttonOne = document.getElementById('one');
-const buttonTwo = document.getElementById('two');
-const buttonThree = document.getElementById('three')
-
+const buttons = document.querySelectorAll('div.divRelative button');
 let mySound;
-function play(button) {
-    if(button.onclick===buttonOne){
-    mySound = new Audio ('/sounds/tom1.wav');
+buttons[0].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/hit-hat.wav');
     mySound.play()
-    }
-    if(button.onclick===buttonTwo){
+})
+buttons[1].addEventListener('click', ()=>{
     mySound = new Audio ('/sounds/redoblante.wav');
     mySound.play()
-    }
-    
-  }
-
-
-buttonOne.addEventListener('click', play);
-buttonTwo.addEventListener('click', play)
+})
+buttons[2].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/tom1.wav');
+    mySound.play()
+})
+buttons[3].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/tom2.wav');
+    mySound.play()
+})
+buttons[4].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/tom3.wav');
+    mySound.play()
+})
+buttons[5].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/tom4.wav');
+    mySound.play()
+})
+buttons[6].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/bombo.wav');
+    mySound.play()
+})
+buttons[7].addEventListener('click', ()=>{
+    mySound = new Audio ('/sounds/crash.wav');
+    mySound.play()
+})
 
 
 
