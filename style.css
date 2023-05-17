@@ -180,12 +180,22 @@ button.price{
         margin-right: 0px;
         
     } */
-
+    .opacity{
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color:#1F173C;
+        opacity: 0.8;
+    }
     header {
         flex-direction: column;
         width: 80%;
         margin-right: 0;
         padding: 0;
+        
     }
 
     nav.desktopMenu {
@@ -196,14 +206,12 @@ button.price{
         list-style-type: none;
         text-align: center;
         align-self: center;
-        
-       
     }
 
     .navBurger li {
-        padding: 1em;
+        padding: 1.5em;
         border-bottom: 2px solid #5E5876;
-        width: 100px;
+        width: 4em;
     }
     .green {
         color: #00F482;
@@ -229,7 +237,15 @@ button.price{
        align-items: center;
        justify-content: center;
        align-self: flex-end;
-       
+    
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        cursor: pointer;
+      }
+
         
     }
     .burgerMenuOpen{
@@ -239,18 +255,25 @@ button.price{
     .mobileMenu{
         display: flex;
         flex-direction: column;
-        background-color: aqua;
+        background-color: #020021;
         z-index: 10;
         position: fixed;
         padding: 4em;
-        align-self: flex-end;
+        align-items: center;
+        
+  transform: translateX(100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 5em;
+  right: 0;
+  margin-top: 0;
+  padding-top: 4rem;
 
     }
 
     body{
         padding: 0;
     }
-
     
     
 }
