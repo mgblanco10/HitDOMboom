@@ -134,7 +134,7 @@ h1{
     padding: 1.35em 5em;
     margin-top: 2em;
 }
-div.buttonHit{
+div.buttonHit .burgerMenuOpen .burgerMenuClose{
     display: none;
 }
 section{
@@ -150,4 +150,77 @@ button.price{
     border-radius: 2em;
     margin-top: 1em;
     border: none;
+}
+
+/* mobile */
+
+@media screen and (max-width: 390px) {
+    /* header {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #ee0303;
+        width: 310px;
+        height: 533px;
+    }
+    li.signUp {
+        color: #00F482;
+        border-right: none;
+        border-bottom: 2px solid #5E5876;
+        width: 100px;
+        padding-right: 0px;
+        margin-right: 0px;
+        
+    } */
+
+    header {
+        flex-direction: column;
+    }
+
+    nav.desktopMenu {
+        display: none;
+    }
+
+    .navBurger {
+        list-style-type: none;
+        text-align: center;
+       
+    }
+
+    .navBurger li {
+        padding: 1em;
+        border-bottom: 2px solid #5E5876;
+        width: 100px;
+    }
+    .green {
+        color: #00F482;
+    }
+    .navBurger li:last-child {
+        border-bottom: none;
+
+    }
+
+    .burgerMenuOpen, .burgerMenuClose {
+        width: 80px;
+        height: 40px;
+        border: none;
+        background-color: #00F482;
+        border-radius: 20px;
+    }
+    .burgerMenuClose  {
+       border-radius: 40px;
+       color: white;
+       width: 40px;
+        
+    }
+
+   
 }
