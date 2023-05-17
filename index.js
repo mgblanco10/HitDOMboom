@@ -1,38 +1,3 @@
-// const buttons = document.querySelectorAll('div.divRelative button');
-// let mySound;
-// buttons[0].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/hit-hat.wav');
-//     mySound.play()
-// })
-// buttons[1].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/redoblante.wav');
-//     mySound.play()
-// })
-// buttons[2].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/tom1.wav');
-//     mySound.play()
-// })
-// buttons[3].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/tom2.wav');
-//     mySound.play()
-// })
-// buttons[4].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/tom3.wav');
-//     mySound.play()
-// })
-// buttons[5].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/tom4.wav');
-//     mySound.play()
-// })
-// buttons[6].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/bombo.wav');
-//     mySound.play()
-// })
-// buttons[7].addEventListener('click', ()=>{
-//     mySound = new Audio ('/sounds/crash.wav');
-//     mySound.play()
-// })
-
 const buttons = document.querySelectorAll(".small, .big");
 const soundFiles = ['hit-hat', 'redoblante', 'tom1', 'tom2', 'tom3', 'tom4', 'bombo', 'crash'];
 
@@ -42,6 +7,30 @@ buttons.forEach(function(button, index) {
     mySound.play();
   });
 });
+
+
+const menu = document.querySelector(".navBurger");
+const buttonMenu= document.querySelector(".burgerMenuOpen");
+const buttonClose= document.querySelector(".burgerMenuClose");
+const opacity = document.querySelector(".div");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    opacity.classList.remove('opacity');
+    buttonClose.style.display = "none";
+    buttonMenu.style.display = "flex";
+  } else {
+    menu.classList.add("showMenu");
+    opacity.classList.add('opacity');
+    buttonClose.style.display = "flex";
+    buttonMenu.style.display = "none";
+  }
+}
+
+buttonClose.addEventListener("click", toggleMenu);
+buttonMenu.addEventListener("click", toggleMenu);
+
 
 
 
