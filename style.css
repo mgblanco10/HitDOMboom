@@ -242,9 +242,8 @@ button.price{
         background-color: aqua;
         z-index: 10;
         position: fixed;
-        padding: 5em;
+        padding: 4em;
         align-self: flex-end;
-
 
     }
 
