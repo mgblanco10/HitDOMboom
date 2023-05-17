@@ -154,7 +154,7 @@ button.price{
 
 /* mobile */
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
     /* header {
         flex-direction: column-reverse;
         width: 100%;
@@ -183,6 +183,9 @@ button.price{
 
     header {
         flex-direction: column;
+        width: 80%;
+        margin-right: 0;
+        padding: 0;
     }
 
     nav.desktopMenu {
@@ -192,6 +195,8 @@ button.price{
     .navBurger {
         list-style-type: none;
         text-align: center;
+        align-self: center;
+        
        
     }
 
@@ -214,13 +219,39 @@ button.price{
         border: none;
         background-color: #00F482;
         border-radius: 20px;
+        
     }
     .burgerMenuClose  {
        border-radius: 40px;
        color: white;
        width: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       align-self: flex-end;
+       
         
     }
+    .burgerMenuOpen{
+        display: none;
+    }
 
-   
+    .mobileMenu{
+        display: flex;
+        flex-direction: column;
+        background-color: aqua;
+        z-index: 10;
+        position: fixed;
+        padding: 5em;
+        align-self: flex-end;
+
+
+    }
+
+    body{
+        padding: 0;
+    }
+
+    
+    
 }
