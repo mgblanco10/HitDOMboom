@@ -4,13 +4,16 @@ body{
     background-color: #020021;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 1.5em 0;
+    padding: 2.5em 0;
     margin: 0;
 }
 header{
     display: flex;
     justify-content: space-between;
-    padding: 0 6em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 .navigation{
     display: flex;
@@ -25,8 +28,8 @@ header{
 li.signUp{
     color: #00F482;
     border-right: 2px solid #5E5876;
-    padding-right: 1em;
-    margin-right: 1em;
+    padding-right: 1.5em;
+    margin-right: 1.5em;
 }
 .navigation li:last-child{
     margin: 0;
@@ -35,13 +38,13 @@ li.signUp{
 div.main{
     display: flex;
     justify-content: space-between;
-    padding: 5em 1.5em 3em 6em;
-    
+    padding: 5em 2.5em 3em 0;
+    width: 85%;
     margin-left: auto;
-    margin-right: auto;
+   
 }
 .mainText{
-    width: 35%;
+    width: 40%;
 }
 img.drumkit{
     width: 700px;
@@ -116,7 +119,7 @@ h1{
     font-size: 64px;
     font-weight: 450;
     line-height: 60px;
-    width: 50%;
+    margin-top: 0.5em;
 }
 .text{
     color: #5E5876;
@@ -128,7 +131,7 @@ h1{
     color: white;
     border: none;
     border-radius: 25px;
-    padding: 1em 4em;
+    padding: 1.35em 5em;
     margin-top: 2em;
 }
 div.buttonHit{
