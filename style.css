@@ -244,13 +244,19 @@ button.price{
         position: fixed;
         padding: 4em;
         align-self: flex-end;
+        top: 0;
+        right: 0;
+        height: 100vh;
+
 
     }
 
     body{
         padding: 0;
     }
-
-    
+    main{
+        opacity: 0.5;
+    }
+   
     
 }
