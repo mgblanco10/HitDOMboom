@@ -259,6 +259,7 @@ button.price{
         z-index: 10;
         position: fixed;
         padding: 4em;
+<<<<<<< HEAD
         align-items: center;
         
   transform: translateX(100%);
@@ -268,12 +269,26 @@ button.price{
   right: 0;
   margin-top: 0;
   padding-top: 4rem;
+=======
+        align-self: flex-end;
+        top: 0;
+        right: 0;
+        height: 100vh;
+
+>>>>>>> 60a916fd19939dc7b986bacd7870f48d3caa2320
 
     }
 
     body{
         padding: 0;
     }
+<<<<<<< HEAD
     
+=======
+    main{
+        opacity: 0.5;
+    }
+   
+>>>>>>> 60a916fd19939dc7b986bacd7870f48d3caa2320
     
 }
