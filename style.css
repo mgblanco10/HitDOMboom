@@ -54,28 +54,28 @@ header{
     border-bottom: none;
 }
 .burgerMenuOpen, .burgerMenuClose {
-    width: 80px;
-    height: 40px;
+    width: 3.5em;
+    height: 1.8em;
     border: none;
     background-color: var(--greenAccent);
     color: var(--white);
     font-size: 1.5em;
     align-items: center;
     z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    padding: 4px;
+    top: 1em;
+    right: 0.5em;
+    padding: 0.25em;
     cursor: pointer;
     align-self: flex-end;
 }
 .burgerMenuOpen{
-    border-radius: 20px;
+    border-radius: 1.25em;
     justify-content: end;
     padding-right: 0.5em;
 }
 .burgerMenuClose  {
-    border-radius: 40px;
-    width: 40px;
+    border-radius: 2em;
+    width: 2em;
     justify-content: center;
    }
 
@@ -86,7 +86,7 @@ header{
 }
 .navigation li {
     margin-right: 2em;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
 }
 li.signUp{
@@ -112,7 +112,7 @@ div.main{
 }
 img.drumkit{
     width: 700px;
-    filter: drop-shadow(20px 0px 100px #1F173C);
+    filter: drop-shadow(1.25em 0em 6.25em #1F173C);
 }
 div.divRelative{
 position: relative;
@@ -129,58 +129,58 @@ position: relative;
 }
 div.firstRow{
     width: 95%;
-    left: 20px;
-    bottom: 350px;
+    left: 1.25em;
+    bottom: 22em;
 }
 div.buttonsCenter{
-    left: 190px;
-    bottom: 260px;
-    width: 320px;
+    left: 12em;
+    bottom: 16.4em;
+    width: 19.7em;
     padding: 0;
     z-index: 2;
 }
 div.secondRow{
     width: 80%;
-    left: 70px;
-    bottom: 240px;
+    left: 4.4em;
+    bottom: 15em;
 }
 div.thirdRow{
     width: 70%;
-    left: 100px;
-    bottom: 85px;
+    left: 6.5em;
+    bottom: 5em;
 }
 
 .small{
-    width: 108px;
-    height: 108px;
-    border-radius: 54px;
+    width: 8em;
+    height: 8em;
+    border-radius: 3.8em;
     border: none;
     cursor: pointer;
 }
 .big{
-    width: 152px;
-    height: 152px;
-    border-radius: 76px;
+    width: 11em;
+    height: 11em;
+    border-radius: 5.5em;
     border: none;
     cursor: pointer;
 }
 
 h1{
-    font-size: 64px;
+    font-size: 4em;
     font-weight: 450;
-    line-height: 60px;
+    line-height: 1em;
     margin-top: 0.5em;
 }
 .text{
     color: var(--pText);
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 1em;
+    font-weight: 500;
 }
 .hitButton{
     background-color: var(--greenAccent);
     color: var(--white);
     border: none;
-    border-radius: 25px;
+    border-radius: 1.75em;
     padding: 1.35em 5em;
     margin-top: 2em;
 }
@@ -191,18 +191,19 @@ section{
     display: none;
     align-items: center;
     justify-content: center;
-    width: 195px;
-    height: 195px;
-    border-radius: 97.5px;
+    width: 12em;
+    height: 12em;
+    border-radius: 6em;
     background-color: var(--hitButton);
     border: var(--grey) solid;
     color: var(--grey);
 }
 .headingThree{
-    font-size: 32px;
+    font-size: 2em;
+    font-weight: 500;
 }
 button.price{
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 600;
     padding: 1em 2em;
     border-radius: 2em;
@@ -244,10 +245,10 @@ button.price{
         position: absolute;
     }
     body{
-        padding: 4em 0;
+        padding: 5em 0;
     }
     img.drumkit{
-        width: 362px;
+        width: 22.5em;
     }
     div.main{
         flex-direction: column-reverse;
@@ -257,15 +258,15 @@ button.price{
         display: flex;
     }
     p.text {
-        font-size: 14px;
+        font-size: 0.9em;
+        font-weight: 400;
     }
     .headingThree{
-        font-size: 24px;
+        font-size: 1.5em;
         font-weight: 400;
     }
     button.price{
-        font-size: 14px;
-        font-weight: 400px;
+        font-size: 0.9em;
         padding: 1em 1em;
     }
     section{
@@ -275,14 +276,14 @@ button.price{
        margin-top: 2em;
     }
     .logo{
-        width: 200px;
+        width: 12.5em;
         align-self: center;
     }
     button.small, button.big{
         display: none;
     }
     h1{
-        font-size: 52px;
+        font-size: 3.25em;
     }
     .mainText{
         width: 100%;
