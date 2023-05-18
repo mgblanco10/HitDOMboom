@@ -32,7 +32,7 @@ buttonClose.addEventListener("click", toggleMenu);
 buttonMenu.addEventListener("click", toggleMenu);
 
 function redirectToPixabay() {
-  window.open('https://pixabay.com/es/sound-effects/', '_blank');
+  window.open('https://soundpacks.com/', '_blank');
 }
 
 
