@@ -31,6 +31,10 @@ function toggleMenu() {
 buttonClose.addEventListener("click", toggleMenu);
 buttonMenu.addEventListener("click", toggleMenu);
 
+function redirectToPixabay() {
+  window.location.href = 'https://pixabay.com/es/sound-effects/';
+}
+
 
 
 
